@@ -1,0 +1,111 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<html>
+	<head>
+		<title></title>
+		   <meta charset="utf-8" />
+		   	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		   	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+		   	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+		   	<style type="text/css">
+		   		.nav{
+		   			background-color: #0d0d26;
+		   			height: 25px;
+		   		}
+
+		   		
+		   		a:link{
+		   			color:black;
+		   			background-color: #527a7a;
+		   			margin: 11px;
+		   		}
+		   		a:hover{
+		   			text-decoration: none;
+		   			color: white;
+		   		}
+
+		.bod{
+			height: 509px;
+		}
+		   		.foo{
+		   			background-color: #3d5c5c;
+		   			height: 50px;
+		   		}
+
+		   	</style>
+
+	</head>
+	<body>
+		<div class="row nav">
+			<div class="col-md-3" style=" height: 25px;">			
+			   <ul class="nav navbar-nav" style="background-color: #527a7a;">
+					<li> <a href="home.html"><i class="fa fa-home"></i>Accueil</a></li>
+					<li> <a href="blog.html" ><i class="fa fa-forumbee"></i>Blog</a></li>
+					<li><a href="dashboard.html"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+					<li><a href="contact.html"><i class="fa fa-mobile-phone"></i>Contact</a></li>
+				</ul></div>
+			<div class="col-md-9"></div>
+				
+			
+		</div>
+		<div class="row bod">
+			<div class="col-md-3">
+				<h5>Tout les articles</h5>
+			<ul>
+				<li>Espagne</li>
+				<li>Portugal</li>
+				<li>Royaume Uni</li>
+			</ul>
+			</div>
+			<div class="col-md-6">
+				<h2>Contactez-nous</h2>
+				<form action="/action.php">
+					<div class="form-group">
+						<label for="nom">Nom:</label>
+						<input type="text" class="form-control" id="nom" placeholder="Votre nom">
+					</div>
+					<div class="form-group">
+						<label for="Prénom">Prénom:</label>
+						<input type="text" class="form-control" id="nom" placeholder="Votre prénom">
+					</div>
+					<div class="form-group">
+						<label for="adresse">Adresse:</label>
+						<input type="text" class="form-control" id="adresse" placeholder="Votre adresse">
+					</div>
+					<div class="form-group">
+						<label for="email">E-mail</label>
+						<input type="e-mail" class="form-control" id="e-mail" placeholder="Votre adresse mail">
+					</div>
+					<div class="checkbox">
+  						<label><input type="checkbox" value="">Remember me</label>
+					</div>
+					<button type="submit" class="btn btn-success">Submit</button>
+
+
+				</form>
+			</div>
+			<div class="col-md-3">
+				<form action="/action_page.php">
+       <div class="form-group">
+       	  <h4>Ecrire un nouvel article</h4>
+          <label for="email">Titre:</label>
+          <input type="text" class="form-control" id="title" placeholder="Ecrire le titre de l'article">
+        </div>
+        <div class="form-group">
+          <label for="contenue">Contenue:</label>
+          <textarea class="form-control" id="contenue" placeholder="Ecrivez ici le nouvel article"></textarea>
+         </div>
+        
+        <button type="submit" class="btn btn-success">Soumettre</button>
+  </form> 
+			</div>
+		</div>
+		<div class="row foo">
+			<div class="col-md-12" >
+				<h6>Copyright TonyMaen 2020</h6>
+			</div>
+		</div>
+		
+	</body>	
+</html>	  
